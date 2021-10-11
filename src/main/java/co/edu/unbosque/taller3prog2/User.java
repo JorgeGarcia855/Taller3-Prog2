@@ -1,14 +1,11 @@
 package co.edu.unbosque.taller3prog2;
 
-import com.opencsv.bean.CsvBindByName;
 
-public class User {
-    @CsvBindByName
-    private String email;
-    @CsvBindByName
-    private String password;
-    @CsvBindByName
-    private String rol;
+
+public final class User {
+    private final String email;
+    private final String password;
+    private final String rol;
 
     public User(String email, String password, String rol) {
         this.email = email;
@@ -16,4 +13,24 @@ public class User {
         this.rol = rol;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", rol='" + rol + '\'' +
+                '}';
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getRol() {
+        return rol;
+    }
 }

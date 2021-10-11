@@ -1,46 +1,12 @@
-{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "ggg",
-  "rol": "propietario"
-}
-{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "khjh",
-  "rol": "funcionario"
-}
-{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "bb",
-  "rol": "propietario"
-}
-{
-  "email": "jlgarciap@unbosque.edu.co",
-  "password": "gjgh",
-  "rol": "propietario"
-}
-{
-  "email": "jlgarciap@unbosque.edu.co",
-  "password": "ggg",
-  "rol": "funcionario"
-}
-{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "fdthdsfth",
-  "rol": "propietario"
-}{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "tyj",
-  "rol": "funcionario"
-}{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "fd",
-  "rol": "funcionario"
-}{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "try",
-  "rol": "propietario"
-}{
-  "email": "jorge.jlgp2002@gmail.com",
-  "password": "gg",
-  "rol": "funcionario"
-}
+[
+    {
+        "email": "jorge.jlgp2002@gmail.com",
+        "password": "vvv",
+        "rol": "propietario"
+    },
+    {
+        "email": "jorge.jlgp2002@gmail.com",
+        "password": "srt",
+        "rol": "propietario"
+    }
+]
