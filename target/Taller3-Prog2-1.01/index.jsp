@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JSP - Hello World</title>
+	<title>Ciudadano de 4 Patas</title>
 </head>
 <body>
-  <h1><%= "Hello World!"%></h1>
-  <form action="hello-servlet" method="post">
+  <h2><%="Ciudadano de 4 Patas"%></h2>
+  <form action="main-page" method="post">
 	  <label for="email-input">Ingrese Correo:</label>
 	  <input type="email" id="email-input" name="email" required>
-
+	  <br>
 	  <label for="password-input">Ingrese Contraseña:</label>
 	  <input type="password" id="password-input" name="password" required>
 	  <br>
@@ -20,15 +20,13 @@
 			  Propietario
 			  <input type="radio" name="rol" value="propietario" required>
 		  </label>
+		  <br>
 		  <label>
 			  Funcionario
 			  <input type="radio" name="rol" value="funcionario" required>
 		  </label>
 	  </div>
-
 	  <button type="submit">Ingresar</button>
   </form>
-<%--  <br/>--%>
-<%--  <a href="hello-servlet">Hello Servlet</a>--%>
 </body>
 </html>
