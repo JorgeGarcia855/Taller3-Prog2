@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>co.edu.unbosque</groupId>
-    <artifactId>Taller3-Prog2</artifactId>
-    <version>1.01</version>
-    <name>Taller3-Prog2</name>
+    <artifactId>Taller3-JorgeGarcia</artifactId>
+    <version>1.02</version>
+    <name>Taller3-JorgeGarcia</name>
     <packaging>war</packaging>
 
     <properties>
