@@ -1,16 +1,14 @@
 package co.edu.unbosque.taller3prog2;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
 import java.io.*;
-import java.lang.reflect.Type;
 import java.util.*;
 
-public final class RWJson {
+public final class RWJsonUser {
     private static final String FILE_PATH = "C:\\Users\\ACER\\git\\Taller3-Prog2\\src\\main\\resources\\json\\usuarios.json";
 
     public static void writeToJson(List<User> users) throws IOException {

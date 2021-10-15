@@ -1,7 +1,12 @@
 [
     {
         "email": "jorge.jlgp2002@gmail.com",
-        "password": "fgyh",
+        "password": "fgn",
+        "rol": "propietario"
+    },
+    {
+        "email": "jlgarciap@unbosque.edu.co",
+        "password": "hjkhjk",
         "rol": "funcionario"
     }
 ]

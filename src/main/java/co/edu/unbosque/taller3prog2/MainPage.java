@@ -13,8 +13,6 @@ public class MainPage extends HttpServlet {
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
-
-        PrintWriter out = response.getWriter();
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String rol = request.getParameter("rol");
@@ -26,12 +24,10 @@ public class MainPage extends HttpServlet {
         rolCookie.setMaxAge(60*60);
         response.addCookie(rolCookie);
         UserCRUD.createUser(new User(email, password, rol));
+        RWJsonUser.writeToJson(UserCRUD.readUser());
 
         if (Objects.equals(rol, "propietario")) response.sendRedirect(request.getContextPath()+"/propietario.html");
         else response.sendRedirect(request.getContextPath()+"/funcionario.html");
-
-        RWJson.writeToJson(UserCRUD.readUser());
-        out.println(new Gson().toJson(RWJson.readJson()));
     }
 
     public void destroy() {}
